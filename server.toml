@@ -1,0 +1,92 @@
+name = "[GER] | [ROLEPLAY] : Dein-Server host by Freddy"
+host = "0.0.0.0"
+port = 7788
+players = 256
+#password = "mySecretPassword"
+announce = false
+#token = "superSecretToken"
+gamemode = "Roleplay"
+website = "kommt noch"
+language = "Germany"
+description = "Wir werden groß rauskommen"
+debug = true
+streamingDistance = 400
+migrationDistance = 150
+timeout = 1
+announceRetryErrorDelay = 10000
+announceRetryErrorAttempts = 50
+duplicatePlayers = 4096
+mapBoundsMinX = -10000
+mapBoundsMinY = -10000
+mapBoundsMaxX = 65536
+mapBoundsMaxY = 65536
+mapCellAreaSize = 100
+colShapeTickRate = 200
+
+logStreams = [ "console", "file" ]
+tags = [
+    "Roleplay",
+    "German"
+]
+connectionQueue = false
+useEarlyAuth = false
+earlyAuthUrl = "https://example.com/login"
+useCdn = false
+cdnUrl = "https://cdn.example.com"
+sendPlayerNames = true
+spawnAfterConnect = true
+
+resources = [
+    "chat",
+    "System",
+    "animationmenu",
+    "adminvest",
+    "rml-nametags"
+]
+
+modules = [
+    "js-module",
+    "csharp-module"
+]
+
+dlc-whitelist = [
+    "freddypi24"
+]
+
+hashClientResourceName = true
+
+[pools]
+"DrawableStore" = 240420
+
+[worldProfiler]
+port = 7797
+host = "0.0.0.0"
+
+[threads]
+streamer = 1
+migration = 1
+
+# js-module Einstellungen
+[js-module]
+source-maps = true
+heap-profiler = true
+profiler = true
+global-webcrypto = true
+network-imports = true
+extra-cli-args = ["--max-old-space-size=8192"]
+[js-module.inspector]
+host = "127.0.0.1"
+port = 9229
+
+# c#-module Einstellungen
+[csharp-module]
+disableDependencyDownload= true
+
+# Voice Einstellungen
+[voice]
+bitrate = 64000
+externalSecret = "1234567890"
+externalHost = "127.0.0.1"
+externalPort = 7798
+externalPublicHost = "xx.xx.xx.xx"
+externalPublicPort = 7799

@@ -1,0 +1,3 @@
+client-files = [ 'client.js', 'includes/*' ]
+client-main = 'client.js'
+type = 'js'

@@ -1,0 +1,35 @@
+[18:24:04] alt:V Server 14.61 (release)
+[18:24:04] Starting [GER] | [ROLEPLAY] : Empire-V host by Freddy on 0.0.0.0:7788
+[18:24:04] Loading resource chat
+[18:24:04] Loaded resource chat
+[18:24:04] Loading resource System
+[18:24:05] Loaded resource System
+[18:24:05] Loading resource animationmenu
+[18:24:05] Loaded resource animationmenu
+[18:24:05] Loading resource adminvest
+[18:24:05] Loaded resource adminvest
+[18:24:05] Loading resource rml-nametags
+[18:24:05][Warning] Using .cfg files is discouraged, consider using the '--convert-config-format' commandline argument
+[18:24:05] Loaded resource rml-nametags
+[18:24:05] Required server permissions:
+[18:24:05] Optional server permissions:
+[18:24:05] Starting HTTP server on 0.0.0.0:7788
+[18:24:05] Main thread started (ThreadId: 7820)
+[18:24:05] VoicePacketProcess thread started (ThreadId: 11936)
+[18:24:05] Colshape thread started (ThreadId: 13904)
+[18:24:05] VoiceStreamer thread started (ThreadId: 6796)
+[18:24:05] EntityStreamer thread started (ThreadId: 14256)
+[18:24:05] Sync thread started (ThreadId: 15284)
+[18:24:05] Network thread started (ThreadId: 16572)
+[18:24:05] Console thread started (ThreadId: 2548)
+[18:24:05][Warning] Server started in debug mode
+[18:24:17] [chat:cmd] Freddy: /voice
+[18:24:18] [chat:cmd] Freddy: /voice
+[18:35:32] Stopping resource chat
+[18:35:32] Stopping resource System
+[18:35:32] Stopped resource System
+[18:35:32] Stopped resource chat
+[18:35:32] Stopping resource adminvest
+[18:35:32] Stopped resource adminvest
+[18:35:32] Stopping resource rml-nametags
+[18:35:32] Stopped resource rml-nametags
