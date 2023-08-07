@@ -1,0 +1,6 @@
+files = [
+    'stream/adminvest_male.rpf/*'
+]
+
+[meta]
+'stream/mp_m_freemode_01_mp_m_adminvest.meta' = 'SHOP_PED_APPAREL_META_FILE'

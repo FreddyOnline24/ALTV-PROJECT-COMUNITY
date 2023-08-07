@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@altv/types-client": "^2.8.5",
+    "@altv/types-natives": "^1.5.4",
+    "@altv/types-server": "^2.8.8"
+  },
+  "name": "altv-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json": "^11.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.0",
+    "node-fetch": "^3.3.2",
+    "sjcl": "^1.0.8"
+  }
+}
